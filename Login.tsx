@@ -11,8 +11,8 @@ export default function Login(){
             <Button title="Login" color={'#4B2e1e'} 
             onPress={()=>{Alert.alert('Logeando...')}}/>
         </View>
-    )+
-}
+    )
+} 
 
 const estilo = StyleSheet.create({
     contenedor:{
